@@ -1,0 +1,69 @@
+h1 {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17vw;
+    color: transparent; /* Makes the inside of the text transparent */
+    -webkit-text-stroke: 2px white; /* Adds a stroke to the text */
+    font-weight: 300;
+}
+
+.img-pp {
+    z-index: 1;
+    top: 30%;
+    right: 80%;
+    width: 150px; /* Adjust the size as needed */
+    height: 150px; /* Ensure width and height are equal for a circle */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; 
+    flex-shrink: 0; /* Prevent image from shrinking */
+}
+
+.firstpage p {
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+}
+
+.firstpage{
+    position: relative;
+    color: white;
+    z-index: 1;
+    display: flex; 
+    justify-content: center;
+    font-size: 3vw;
+    font-weight: 200;
+    height: 100vh;
+}
+
+.paragraphe-wrapper {
+    display: flex;
+    flex-direction: column; /* Stack paragraphs vertically */
+    text-align: left;
+    padding-left: 4vw;
+    padding-right: 4vw; /* This controls the space between the paragraphs */
+    gap: 1vw;
+}
+
+.img-study {
+    z-index: 1;
+    top: 30%;
+    right: 80%;
+    width: 150px; /* Adjust the size as needed */
+    height: 150px; /* Ensure width and height are equal for a circle */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; 
+    flex-shrink: 0; /* Prevent image from shrinking */
+}
+
+.secondpage{
+    position: relative;
+    color: white;
+    z-index: 1;
+    display: flex; 
+    justify-content: center;
+    font-size: 3vw;
+    font-weight: 200;
+    height: 100vh;
+}

@@ -1,0 +1,49 @@
+import React, { useEffect } from "react";
+import gsap from "gsap"
+import SplitTextJS from "split-text-js";
+import './Welcome.css'
+
+function Welcome() {
+
+    // Welcome animation
+    useEffect(() => {
+        const titles = gsap.utils.toArray('.text-wrapper p')
+        const tl = gsap.timeline();
+        titles.forEach(title => {
+            const splitTitle = new SplitTextJS(title);
+
+            tl
+                .from(splitTitle.chars, {
+                    opacity: 0,
+                    y: 80,
+                    rotateX: -90,
+                    stagger: .02
+                }, "<")
+
+                .to(splitTitle.chars, {
+                    opacity: 0,
+                    y: -80,
+                    rotateX: 90,
+                    stagger: .02
+                }, "<1");
+        });
+
+    }, []);
+
+
+
+    return (
+        <div className="Welcome">
+                <div className="container">
+                    <div className="text-wrapper">
+                        <p>Welcome</p>
+                        <p>To my website</p>
+                        <p>yann.m</p>
+                    </div>
+                </div>
+        </div>
+
+    );
+}
+
+export default Welcome
