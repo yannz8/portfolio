@@ -28,29 +28,33 @@ function About() {
       <div className="secondpage">
         <div className="study">
           <img src={ales} alt="ales" className="img-study"></img>
-          <div className="paragraphe-wrapper">
-            <p> Hi, I'm Yann Maheu</p>
-            <p> A 23 YO French </p>
-            <p> Full stack developper </p>
+          <div className="study-wrapper">
+            <h2>IMT Mines Alès</h2>
+            <h3>Robotics engineering degree</h3>
+            <h4>2019-2022</h4>
+            <p>Following a CPGE (Preparatory Class for Grandes Ecoles), I joined the school des Mines d'Alès. After a general year I specialized in robotics, this included courses in electronics, mechanics and computer science.</p>
           </div>
         </div>
         <div className="study">
           <img src={mtp} alt="mtp" className="img-study"></img>
-          <div className="paragraphe-wrapper">
-            <p> Hi, I'm Yann Maheu</p>
-            <p> A 23 YO French </p>
-            <p> Full stack developper </p>
+          <div className="study-wrapper">
+            <h2> Faculté Montpellier</h2>
+            <h3> Master 2 in Biomechanics </h3>
+            <h4> 2022 </h4>
+            <p>During my engineering school course I completed a double degree in biomechanics, in order to link my 2 passions, science and sport.</p>
           </div>
         </div>
         <div className="study">
           <img src={inti} alt="inti" className="img-study"></img>
-          <div className="paragraphe-wrapper">
-            <p> Hi, I'm Yann Maheu</p>
-            <p> A 23 YO French </p>
-            <p> Full stack developper </p>
+          <div className="study-wrapper">
+            <h2> INTI Formation</h2>
+            <h3> Web developer training</h3>
+            <h4> 2023 </h4>
+            <p>In order to improve my experience in IT, I completed full stack developer training. This included extensive learning of Java, Spring framework, mysql database and front-end development.</p>
           </div>
         </div>
       </div>
+      <h1>Skills</h1>
     </div>
   );
 }
