@@ -5,8 +5,10 @@ h1 {
     justify-content: center;
     align-items: center;
     font-size: 17vw;
-    color: transparent; /* Makes the inside of the text transparent */
-    -webkit-text-stroke: 2px white; /* Adds a stroke to the text */
+    color: transparent;
+    /* Makes the inside of the text transparent */
+    -webkit-text-stroke: 2px white;
+    /* Adds a stroke to the text */
     font-weight: 300;
 }
 
@@ -14,23 +16,29 @@ h1 {
     z-index: 1;
     top: 30%;
     right: 80%;
-    width: 150px; /* Adjust the size as needed */
-    height: 150px; /* Ensure width and height are equal for a circle */
-    border-radius: 50%; /* Makes the image circular */
-    object-fit: cover; 
-    flex-shrink: 0; /* Prevent image from shrinking */
+    width: 150px;
+    /* Adjust the size as needed */
+    height: 150px;
+    /* Ensure width and height are equal for a circle */
+    border-radius: 50%;
+    /* Makes the image circular */
+    object-fit: cover;
+    flex-shrink: 0;
+    /* Prevent image from shrinking */
 }
 
 .firstpage p {
-    margin: 0; /* Reset margin */
-    padding: 0; /* Reset padding */
+    margin: 0;
+    /* Reset margin */
+    padding: 0;
+    /* Reset padding */
 }
 
-.firstpage{
+.firstpage {
     position: relative;
     color: white;
     z-index: 1;
-    display: flex; 
+    display: flex;
     justify-content: center;
     font-size: 3vw;
     font-weight: 200;
@@ -39,20 +47,23 @@ h1 {
 
 .paragraphe-wrapper {
     display: flex;
-    flex-direction: column; /* Stack paragraphs vertically */
+    flex-direction: column;
+    /* Stack paragraphs vertically */
     text-align: left;
     padding-left: 4vw;
-    padding-right: 4vw; /* This controls the space between the paragraphs */
+    padding-right: 4vw;
+    /* This controls the space between the paragraphs */
     gap: 1vw;
-    box-sizing: border-box; /* Include padding and border in height calculation */
+    box-sizing: border-box;
+    /* Include padding and border in height calculation */
     overflow: hidden;
 }
 
-.secondpage{
+.secondpage {
     position: relative;
     color: white;
     z-index: 1;
-    display: flex; 
+    display: flex;
     justify-content: center;
     align-items: center;
     font-weight: 200;
@@ -60,28 +71,40 @@ h1 {
 }
 
 .img-container {
-    perspective: 800px; /* Controls the depth perspective */
+    perspective: 800px;
+    /* Controls the depth perspective */
 }
 
 .img-study {
     z-index: 1;
-    width: 150px; /* Adjust the size as needed */
-    height: 150px; /* Ensure width and height are equal for a circle */
-    border-radius: 50%; /* Makes the image circular */
-    object-fit: cover; 
-    flex-shrink: 0; /* Prevent image from shrinking */
-    margin: auto; /* Center the image horizontally and vertically */
-    display: flex; /* Ensure it's a flex container for alignment */
-    align-items: center; /* Center the content vertically */
-    justify-content: center; /* Center the content horizontally */
-    transition: transform 0.6s ease-in-out, box-shadow 0.6s ease-in-out; /* Smooth transition */
-    transform-style: preserve-3d; /* Ensures child elements are transformed in 3D */
+    width: 150px;
+    /* Adjust the size as needed */
+    height: 150px;
+    /* Ensure width and height are equal for a circle */
+    border-radius: 50%;
+    /* Makes the image circular */
+    object-fit: cover;
+    flex-shrink: 0;
+    /* Prevent image from shrinking */
+    margin: auto;
+    /* Center the image horizontally and vertically */
+    display: flex;
+    /* Ensure it's a flex container for alignment */
+    align-items: center;
+    /* Center the content vertically */
+    justify-content: center;
+    /* Center the content horizontally */
+    transition: transform 0.6s ease-in-out, box-shadow 0.6s ease-in-out;
+    /* Smooth transition */
+    transform-style: preserve-3d;
+    /* Ensures child elements are transformed in 3D */
     margin-top: 1em;
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.471);
 }
 
 .img-study:hover {
-    transform: rotateY(360deg); /* Rotate 180 degrees on hover */
+    transform: rotateY(360deg);
+    /* Rotate 180 degrees on hover */
     box-shadow: 0 8px 16px rgba(241, 238, 238, 0.8)
 }
 
@@ -94,12 +117,14 @@ h1 {
     z-index: 1;
 }
 
-.study-wrapper{
+.study-wrapper {
     display: flex;
-    flex-direction: column; /* Stack paragraphs vertically */
+    flex-direction: column;
+    /* Stack paragraphs vertically */
     text-align: center;
     padding-left: 0.2vw;
-    padding-right: 0.2vw; /* This controls the space between the paragraphs */
+    padding-right: 0.2vw;
+    /* This controls the space between the paragraphs */
     gap: 1vw;
 
 }
@@ -113,8 +138,8 @@ h1 {
     font-size: 1.3em;
     margin-top: 0;
     margin-bottom: 0em;
-    
-    
+
+
 }
 
 .study-wrapper h4 {
@@ -122,10 +147,100 @@ h1 {
     font-style: italic;
     margin-top: 0;
     margin-bottom: 0em;
-    
+
 }
 
 .study-wrapper p {
     font-size: 1.1em;
     margin-top: 0;
+}
+
+.tagcloud {
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    font-size: 1.7em;
+}
+
+.skillsParagraph p {
+    position: relative;
+    z-index: 1;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+.img-devops {
+    z-index: 1;
+    position: relative;
+    width: 60%;
+    object-fit: cover;
+    flex-shrink: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.fourthpage h2 {
+    z-index: 1;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 6em;
+}
+
+.Sport {
+    color: blue;
+}
+
+.Travel {
+    z-index: 1;
+    position: relative;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.Travel h3 {
+    font-size: 3em;
+    font-weight: 200;
+    z-index: 1;
+    color: white;
+}
+
+.Other {
+    color: red;
+}
+
+.France {
+    z-index: 1;
+    position: relative;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.SouthAmerica {
+    z-index: 1;
+    position: relative;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
