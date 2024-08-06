@@ -1,8 +1,8 @@
 // RouterWrapper.jsx
 import React from 'react';
 import About from './pages/About';
-import Skills from './pages/Skills';
-import Experience from './pages/Experience';
+import Project from './pages/Project';
+import Contact from './pages/Contact';
 import Home from './pages/Home';
 import './RouterWrapper.css'
 import HomeButton from "./components/HomeButton";
@@ -18,10 +18,10 @@ const RouterWrapper = () => {
           <Link to="/about" className="rolling-text">About</Link>
         </nav>
         <nav>
-          <Link to="/skills" className="rolling-text">Skills</Link>
+          <Link to="/project" className="rolling-text">Project</Link>
         </nav>
         <nav>
-          <Link to="/experience" className="rolling-text">Exp</Link>
+          <Link to="/contact" className="rolling-text">Contact</Link>
         </nav>
       </header>
       <HomeButton />
@@ -31,8 +31,8 @@ const RouterWrapper = () => {
         <Routes>
           <Route path="/" element={< Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/experience" element={<Experience />} />
+          <Route path="/project" element={<Project />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         </div>
       </CSSTransition>

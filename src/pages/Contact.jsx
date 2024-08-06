@@ -2,17 +2,17 @@ import React, { useEffect } from "react";
 import ParticlesBackground from '../components/ParticlesBackground'
 
 
-function Experience() {
+function Contact() {
 
 
   return (
     <div className="Experience">
       <div className="container_experience">
       <ParticlesBackground/>
-      <h1>Experience</h1>  
+      <h1>Contact</h1>  
     </div>
     </div>
   );
 }
 
-export default Experience
+export default Contact

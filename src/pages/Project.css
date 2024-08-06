@@ -1,0 +1,42 @@
+.Project {
+    position: relative;
+    color: white;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8em;
+}
+
+.logo-project {
+    z-index: 1;
+    width: 20%;
+    height: auto;
+    object-fit: cover;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-project {
+    font-size: 2em;
+    font-weight: 300;
+}
+
+.date-project {
+    font-style: italic;
+    font-weight: 200;
+}
+
+.img-project {
+    width: 20%;
+  
+}
+
+.Project p {
+    font-weight: 200;
+    font-size: 1.2em;
+    margin: 0.5em;
+}

@@ -5,11 +5,19 @@ import './About.css'
 import ParticlesBackground from '../components/ParticlesBackground'
 import FranceCarousel from "../components/FranceCarousel";
 import SouthAmericaCarousel from "../components/SouthAmericaCarousel";
+//pp
 import pp from '../images/pp.jpg'
+//study
 import ales from '../images/ales.png'
 import mtp from '../images/Mtp.png'
 import inti from '../images/inti.png'
+//devops
 import devops from '../images/devops.jpeg'
+//sport
+import foot from '../images/foot.png'
+import running from '../images/running.png'
+import street from '../images/street.png'
+import boxe from '../images/boxe.png'
 
 
 function About() {
@@ -112,6 +120,17 @@ function About() {
       <div className="fourthpage">
         <div className="Sport">
           <h2>SPORT</h2>
+          <p>I started playing football at the age of 8 and played until I was 21. </p>
+          <p>During these years I did tennis, ping-pong, badminton, judo and triathlon.</p>
+          <p>During my higher education I took up French boxing, English boxing, bodybuilding, street workouts and running.</p>
+          <p>In sport, I like surpassing oneself, collective spirit and intelligence for the benefit of performance.</p>
+          <p>Even today, physical activity is essential.</p>
+          <div className="sportImage">
+            <img src={foot} alt="foot" className="img-sport"></img>
+            <img src={running} alt="running" className="img-sport"></img>
+            <img src={street} alt="street" className="img-sport"></img>
+            <img src={boxe} alt="boxe" className="img-sport"></img>
+          </div>
         </div>
         <div className="Travel">
           <h2>TRAVEL</h2>
@@ -130,11 +149,16 @@ function About() {
           <div className="France">
             <h3>France</h3>
             <FranceCarousel />
+            <p>In France I love nature, hiking in the Pyrenees, sailing in Brittany and more generally discovering my country.</p>
           </div>
           <div className="SouthAmerica">
             <h3>South America</h3>
             <SouthAmericaCarousel />
+            <p>At the end of my studies I went to South America for 6 months.</p>
+            <p>I discovered sublime landscapes there: the Perito Moreno glacier, the Amazon jungle in the RUrrenabaque park, the Salar de Uyuni, etc.</p>
+            <p>This allowed me to discover a new culture and improve my English</p>
           </div>
+          
         </div>
         <div className="Other">
           <h2>OTHER</h2>
