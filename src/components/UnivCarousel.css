@@ -1,0 +1,20 @@
+/* PhotoCarousel.css */
+.univ-carousel {
+    width: 30%;
+    margin: 1em auto;
+    padding: 2em;
+    max-width: 1000px;
+  }
+  
+  .carousel-image {
+    width: 100%;
+    border-radius: 30px;
+    height: auto;
+  }
+
+  .img-pdf{
+    width: 10%;
+    display: block; /* Makes the img a block-level element */
+    margin: 2em auto; 
+}
+

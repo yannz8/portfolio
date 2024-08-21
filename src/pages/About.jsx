@@ -12,7 +12,7 @@ import ales from '../images/ales.png'
 import mtp from '../images/Mtp.png'
 import inti from '../images/inti.png'
 //devops
-import devops from '../images/devops.jpeg'
+import devops from '../images/devops.png'
 //sport
 import foot from '../images/foot.png'
 import running from '../images/running.png'
