@@ -12,7 +12,7 @@ import { BrowserRouter, Route, Routes, Link, useLocation } from 'react-router-do
 const RouterWrapper = () => {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={"/portfolio/"}>
       <header className="header">
         <nav>
           <Link to="/about" className="rolling-text">About</Link>
