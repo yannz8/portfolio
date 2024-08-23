@@ -8,4 +8,4 @@ export default defineConfig({
   build: {
     outDir: 'build', // This changes the output directory from 'dist' to 'build'
   },
-})
+});
