@@ -1,0 +1,23 @@
+/* PhotoCarousel.css */
+.ca-carousel {
+    width: 30%;
+    max-width: 1000px; /* Optional: set a max width */
+    margin: 2em auto; /* Center the carousel */
+  }
+
+  .carousel-slide {
+    text-align: center;
+  }
+
+  .carousel-caption {
+    margin-top: 10px;
+    font-size: 16px;
+    color: white;
+  }
+  
+  .carousel-image {
+    width: 100%;
+    border-radius: 30px;
+    height: auto;
+  }
+
