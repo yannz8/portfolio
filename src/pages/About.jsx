@@ -122,7 +122,7 @@ function About() {
           <h2>SPORT</h2>
           <p>I started playing football at the age of 8 and played until I was 21. </p>
           <p>During these years I did tennis, ping-pong, badminton, judo and triathlon.</p>
-          <p>During my higher education I took up French boxing, English boxing, bodybuilding, street workouts and running.</p>
+          <p>During my higher education I took up French boxing, English boxing, fitness, street workouts and running.</p>
           <p>In sport, I like surpassing oneself, collective spirit and intelligence for the benefit of performance.</p>
           <p>Even today, physical activity is essential.</p>
           <div className="sportImage">
@@ -155,8 +155,8 @@ function About() {
             <h3>South America</h3>
             <SouthAmericaCarousel />
             <p>At the end of my studies I went to South America for 6 months.</p>
-            <p>I discovered sublime landscapes there: the Perito Moreno glacier, the Amazon jungle in the RUrrenabaque park, the Salar de Uyuni, etc.</p>
-            <p>This allowed me to discover a new culture and improve my English</p>
+            <p>I discovered sublime landscapes there: the Perito Moreno glacier, the Amazon jungle in the Rrrrenabaque park, the Salar de Uyuni, etc.</p>
+            <p>This allowed me to discover a new culture and improve my Spanish and my English</p>
           </div>
           
         </div>
