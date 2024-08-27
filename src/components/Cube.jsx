@@ -19,8 +19,8 @@ const Cube = ({onClick}) => {
     cube.current.rotation.x = cube.current.rotation.x += delta;
 
     const distance = camera.position.length();
-    const maxDistance = 200; // Limite maximale de zoom
-    const minDistance = 3; // Limite minimale de dézoom
+    const maxDistance = 350; // Limite maximale de zoom
+    const minDistance = 150; // Limite minimale de dézoom
 
     if (distance < minDistance) {
       camera.position.setLength(minDistance);

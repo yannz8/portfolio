@@ -1,0 +1,11 @@
+Model Information:
+* title:	Bicycle Fixie Inc Peacemaker
+* source:	https://sketchfab.com/3d-models/bicycle-fixie-inc-peacemaker-fe0a6cc81b5f435397456870696ede8d
+* author:	mmaarriioo (https://sketchfab.com/mmaarriioo)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Bicycle Fixie Inc Peacemaker" (https://sketchfab.com/3d-models/bicycle-fixie-inc-peacemaker-fe0a6cc81b5f435397456870696ede8d) by mmaarriioo (https://sketchfab.com/mmaarriioo) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

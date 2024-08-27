@@ -1,0 +1,11 @@
+Model Information:
+* title:	Bureau de chambre
+* source:	https://sketchfab.com/3d-models/bureau-de-chambre-818bf48c045042a4a368515a9a258aaa
+* author:	Charrier Christophe (https://sketchfab.com/CharrierChristophe)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Bureau de chambre" (https://sketchfab.com/3d-models/bureau-de-chambre-818bf48c045042a4a368515a9a258aaa) by Charrier Christophe (https://sketchfab.com/CharrierChristophe) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

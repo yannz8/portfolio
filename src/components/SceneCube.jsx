@@ -2,8 +2,17 @@ import { Canvas } from '@react-three/fiber';
 import Cube from './Cube';
 import Socle from './Socle';
 import Floor from './Floor';
-import Moon from './Moon';
 import PC from './PC';
+
+import Mate from './Mate';
+import Book from './Book';
+import HarryPotter from './HarryPotter';
+import CD from './CD';
+import Bureau from './Bureau';
+import Fixie from './Fixie';
+import Voilier from './Voilier';
+import Football from './Football';
+
 import "./SceneCube.css"
 
 import { OrbitControls, Stars, Sky} from "@react-three/drei";
@@ -17,7 +26,7 @@ const SceneCube = ({ onCubeClick }) => {
   return (
     <div className='SceneCube'>
       <Canvas
-        camera={{ fov: 90, near: 0.1, far: 1000, position: [0, 5, 10] }}
+        camera={{ fov: 90, near: 0.1, far: 1000, position: [100, 150, 150] }}
         style={{ display: 'block', width: '100%', height: '100%' }}
       >
         <OrbitControls />
@@ -41,8 +50,18 @@ const SceneCube = ({ onCubeClick }) => {
         />
         <PC scale={[1, 1, 1]} position={[0, 0, 0]} />
         <Cube onClick={onCubeClick} />
-        <Floor />
         <Socle />
+        <Bureau scale={[100, 100, 100]} position={[0, 0, 0]} />
+        <PC scale={[.25, .25, .25]} position={[80, 84, -25]} />
+        <Book scale={[.05, .05, .05]} position={[30, 87, -25]} />
+        <Mate scale={[10, 10, 10]} position={[10, 94, -55]} />
+        <HarryPotter scale={[60, 60, 60]} position={[10, 84, -30]} />
+        <Voilier scale={[.8, .8, .8]} position={[40, 86, -55]} />
+        <CD scale={[3, 3, 3]} position={[105, 85, -25]} />
+        
+
+        <Fixie scale={[100, 100, 100]} position={[-10, 0, -25]} />
+        <Football scale={[13, 13, 13]} position={[100, 10, -25]} />
       </Canvas>
     </div>
   );

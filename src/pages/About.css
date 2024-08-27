@@ -181,7 +181,7 @@ h1 {
 .img-devops {
     z-index: 1;
     position: relative;
-    width: 60%;
+    width: 75%;
     object-fit: cover;
     flex-shrink: 0;
     margin: auto;

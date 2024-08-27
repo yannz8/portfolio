@@ -1,0 +1,11 @@
+Model Information:
+* title:	CD-disc
+* source:	https://sketchfab.com/3d-models/cd-disc-386c95124c4e4267b7a317a8d284dae5
+* author:	SvetlanaFoton (https://sketchfab.com/SvetlanaFoton)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "CD-disc" (https://sketchfab.com/3d-models/cd-disc-386c95124c4e4267b7a317a8d284dae5) by SvetlanaFoton (https://sketchfab.com/SvetlanaFoton) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
