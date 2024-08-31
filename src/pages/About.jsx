@@ -158,7 +158,7 @@ function About() {
             <h3>South America</h3>
             <SouthAmericaCarousel />
             <p>At the end of my studies I went to South America for 6 months.</p>
-            <p>I discovered sublime landscapes there: the Perito Moreno glacier, the Amazon jungle in the Rurrenabaque park, the Salar de Uyuni, etc.</p>
+            <p>I discovered sublime landscapes there: Perito Moreno glacier,  Rurrenabaque park, Salar de Uyuni, etc.</p>
             <p>This allowed me to discover a new culture and improve my Spanish and my English</p>
           </div>
           

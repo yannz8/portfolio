@@ -54,7 +54,7 @@ const RouterWrapper = () => {
 
 
   useEffect(() => {
-    const timer = setTimeout(() => setShowWelcome(false), 10000); // Change this as needed
+    const timer = setTimeout(() => setShowWelcome(false), 12000); // Change this as needed
     return () => clearTimeout(timer);
   }, []);
 
