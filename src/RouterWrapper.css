@@ -52,7 +52,7 @@
 }
 
 .header nav {
-    margin: 0;
-    margin: 40px;
-    font-size: 30px;
+    margin-block: 2em;
+    margin-inline: 1em;
+    font-size: 2em;
 }

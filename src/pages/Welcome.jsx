@@ -39,7 +39,7 @@ function Welcome() {
                 <div className="container">
                     <div className="text-wrapper">
                         <p>Welcome</p>
-                        <p>To my website</p>
+                        <p>to my website</p>
                         <p>yann-mh</p>
                     </div>
                 </div>
