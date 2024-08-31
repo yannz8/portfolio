@@ -12,7 +12,7 @@ import Home from './pages/Home';
 
 import HomeButton from "./components/HomeButton";
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
-import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
+import { HashRouter as Router , Route, Routes, Link } from 'react-router-dom';
 
 import { useState, useEffect } from 'react';
 
@@ -62,7 +62,7 @@ const RouterWrapper = () => {
   }, [showWelcome]);
 
   return (
-    <BrowserRouter basename={"/portfolio/"}>
+    <Router>
       <header className="header">
         <nav>
           <Link to="/about" className="rolling-text">About</Link>
@@ -92,7 +92,7 @@ const RouterWrapper = () => {
           </div>
         </CSSTransition>
       </TransitionGroup>
-    </BrowserRouter >
+    </Router >
   );
 };
 

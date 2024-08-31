@@ -40,7 +40,7 @@ function Welcome() {
                     <div className="text-wrapper">
                         <p>Welcome</p>
                         <p>To my website</p>
-                        <p>yann.m</p>
+                        <p>yann-mh</p>
                     </div>
                 </div>
         </div>
