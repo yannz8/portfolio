@@ -41,6 +41,34 @@ function App() {
     };
   }, []);
 
+  const [showRotateMessage, setShowRotateMessage] = useState(false);
+
+  console.log(navigator.userAgent);
+
+  useEffect(() => {
+    const checkOrientation = () => {
+      const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+      const isPortrait = window.innerHeight > window.innerWidth;
+
+      if (isMobile && isPortrait) {
+        alert('Please rotate your device to landscape mode for the best experience.');
+      }
+
+      console.log(isMobile)
+    };
+
+    // Initial check
+    checkOrientation();
+
+    // Add event listener to detect orientation changes
+    window.addEventListener('resize', checkOrientation);
+
+    // Cleanup event listener on unmount
+    return () => {
+      window.removeEventListener('resize', checkOrientation);
+    };
+  }, []);
+
   return (
 
     <div className="All">
