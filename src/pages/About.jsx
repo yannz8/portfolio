@@ -138,8 +138,8 @@ function About() {
         <div className="Travel">
           <h2>TRAVEL</h2>
           <Globe
-            width={800}
-            height={800}
+            width={600}
+            height={600}
             globeImageUrl="//unpkg.com/three-globe/example/img/earth-dark.jpg"
             backgroundColor="rgba(0, 0, 0, 0)"
             pointsData={markers}
