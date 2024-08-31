@@ -1,3 +1,12 @@
+.About {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 h1 {
     position: relative;
     z-index: 1;
@@ -16,22 +25,16 @@ h1 {
     z-index: 1;
     top: 30%;
     right: 80%;
-    width: 150px;
-    /* Adjust the size as needed */
-    height: 150px;
-    /* Ensure width and height are equal for a circle */
+    width: 10%;
+    height: 10%;
     border-radius: 50%;
-    /* Makes the image circular */
     object-fit: cover;
     flex-shrink: 0;
-    /* Prevent image from shrinking */
 }
 
 .firstpage p {
     margin: 0;
-    /* Reset margin */
     padding: 0;
-    /* Reset padding */
 }
 
 .firstpage {
@@ -48,14 +51,11 @@ h1 {
 .paragraphe-wrapper {
     display: flex;
     flex-direction: column;
-    /* Stack paragraphs vertically */
     text-align: left;
     padding-left: 4vw;
     padding-right: 4vw;
-    /* This controls the space between the paragraphs */
     gap: 1vw;
     box-sizing: border-box;
-    /* Include padding and border in height calculation */
     overflow: hidden;
 }
 
@@ -67,7 +67,7 @@ h1 {
     justify-content: center;
     align-items: center;
     font-weight: 200;
-    height: 100vh;
+    width: 75%;
 }
 
 .img-container {
@@ -109,8 +109,7 @@ h1 {
 }
 
 .study {
-    margin: 1em;
-    margin: 1em;
+    margin-inline: .5em;
     border-color: white;
     border-width: 1ch;
     border-style: double;
@@ -120,22 +119,22 @@ h1 {
 .study-wrapper {
     display: flex;
     flex-direction: column;
-    /* Stack paragraphs vertically */
     text-align: center;
     padding-left: 0.2vw;
     padding-right: 0.2vw;
-    /* This controls the space between the paragraphs */
     gap: 1vw;
 
 }
 
 .study-wrapper h2 {
-    font-size: 1.7em;
+    font-size: 2em;
+    font-weight: 400;
     margin-bottom: 0em;
 }
 
 .study-wrapper h3 {
-    font-size: 1.3em;
+    font-size: 1.8em;
+    font-weight: 300;
     margin-top: 0;
     margin-bottom: 0em;
 
@@ -143,7 +142,8 @@ h1 {
 }
 
 .study-wrapper h4 {
-    font-size: 1em;
+    font-size: 1.6em;
+    font-weight: 200;
     font-style: italic;
     margin-top: 0;
     margin-bottom: 0em;
@@ -151,8 +151,9 @@ h1 {
 }
 
 .study-wrapper p {
-    font-size: 1.1em;
+    font-size: 1.2em;
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 .tagcloud {
@@ -181,7 +182,6 @@ h1 {
 .img-devops {
     z-index: 1;
     position: relative;
-    width: 75%;
     object-fit: cover;
     flex-shrink: 0;
     margin: auto;
@@ -243,24 +243,22 @@ h1 {
 .Travel {
     z-index: 1;
     position: relative;
-    color: white;
+    color: red;
     flex-direction: column;
     align-items: center;
     display: flex;
     justify-content: center;
+    margin-block: 10em;
 
 }
 
 .Travel h3 {
-    font-size: 3em;
+    font-size: 4em;
     font-weight: 200;
     z-index: 1;
     color: white;
 }
 
-.Other {
-    color: red;
-}
 
 .France {
     z-index: 1;
@@ -274,7 +272,7 @@ h1 {
 }
 
 .France p {
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-weight: 200;
     font-style: italic;
     z-index: 1;
@@ -294,7 +292,7 @@ h1 {
 }
 
 .SouthAmerica p {
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-weight: 200;
     font-style: italic;
     z-index: 1;

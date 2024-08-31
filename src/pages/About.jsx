@@ -23,6 +23,9 @@ import boxe from '../images/boxe.png'
 function About() {
 
   useEffect(() => {
+
+    window.scrollTo(0, 0);
+    
     const container = ".tagcloud";
     const texts = [
       "Java", "JavaScript", "Python", "HTML", "CSS",
@@ -155,13 +158,10 @@ function About() {
             <h3>South America</h3>
             <SouthAmericaCarousel />
             <p>At the end of my studies I went to South America for 6 months.</p>
-            <p>I discovered sublime landscapes there: the Perito Moreno glacier, the Amazon jungle in the Rrrrenabaque park, the Salar de Uyuni, etc.</p>
+            <p>I discovered sublime landscapes there: the Perito Moreno glacier, the Amazon jungle in the Rurrenabaque park, the Salar de Uyuni, etc.</p>
             <p>This allowed me to discover a new culture and improve my Spanish and my English</p>
           </div>
           
-        </div>
-        <div className="Other">
-          <h2>OTHER</h2>
         </div>
       </div>
     </div>

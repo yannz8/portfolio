@@ -9,9 +9,9 @@ const Socle = () => {
         <>
             <ambientLight />
             <pointLight position={[0, 0, 0]} />
-            <mesh position={[0, 2, 0]}>
+            <mesh position={[130, 6, -20]}>
                 <boxGeometry args={[2, 4, 2, 2, 2 , 2]} />
-                <meshStandardMaterial  color="#F41E1A" />
+                <meshStandardMaterial  color="red" />
                 <OrbitControls />
             </mesh>
         </>

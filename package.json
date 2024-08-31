@@ -12,6 +12,7 @@
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@react-three/drei": "^9.111.3",
     "@react-three/fiber": "^8.17.5",
     "@tsparticles/all": "^3.5.0",

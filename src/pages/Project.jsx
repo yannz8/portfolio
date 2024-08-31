@@ -29,6 +29,10 @@ import euromov_pdf from '../docs/rapport_euromov.pdf'
 
 function Project() {
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
 
   return (
     <div className="Skills">
@@ -38,7 +42,7 @@ function Project() {
         <div className="Project">
           <img src={CA} alt="CA" className="logo-project"></img>
           <h2 className="title-project">Java backend developer on Springboot</h2>
-          <h3 className="date-project">2nd January - Today</h3>
+          <h3 className="date-project">January 2024 - Today</h3>
           <p>Development of API for electronic banking, implementation of MySQL database, Redis, Topic Kafka.</p>
           <p>High security, quality and performance management.</p>
           <CACarousel />

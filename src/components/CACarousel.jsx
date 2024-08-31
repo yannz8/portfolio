@@ -37,11 +37,7 @@ const CACarousel = () => {
     {
       photo: img4,
       caption: 'Testing is a priority with JUnit and Postman. Security is managed with Spring Security, and we use Spring Batch for processing. Agile methodology is implemented with Jira for project management.'
-    },
-    {
-      photo: img5,
-      caption: 'Performed statistical analysis on various spatiotemporal parameters, focusing on extracting and interpreting data patterns to support detailed insights'
-    },
+    }
   ];
 
   return (

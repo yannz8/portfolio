@@ -1,0 +1,125 @@
+.Experience {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-block {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 4px solid white;
+    outline: 2px solid white;
+    outline-offset: -10px;       /* Bring the outer border closer */
+    background-color: transparent; /* Ensure background doesn't hide the outline */
+}
+
+.Title {
+    border-bottom: 2px solid white; /* Bordure basse de 2px de couleur noire */
+    width: 60%;
+    padding: 10px;
+}
+
+.contact-block h2 {
+    font-size: 5em;
+    font-weight: 400;
+    width: 100%;
+    color: white;
+}
+
+/* Form Styling */
+.contact-block form {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+    color: white;
+    font-size: 2em;
+    font-weight: 200;
+}
+
+.contact-block h2 {
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.contact-block label {
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.contact-block input[type="text"],
+.contact-block textarea {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #a4a4a4; /* Matches contact-block background */
+    color: white;
+    font-size: 1em;
+}
+
+.contact-block fieldset {
+    border: none;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.contact-block legend {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contact-block label input {
+    margin-right: 5px;
+}
+
+.contact-block button {
+    font-size: 1.5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border: solid rgb(167, 167, 167);
+    border-radius: 4px;
+    background-color: #626262;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-block button:hover {
+    background-color: #999;
+}
+
+.footer {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    flex-direction: row; /* Stack items vertically on smaller screens */
+}
+
+.footer-content p {
+    font-size: 1em;
+}
+
+.footer-content {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column; /* Stack items vertically */
+    z-index: 2;
+    margin-inline: 10%;
+    margin-top: 10%;
+}
+
+.footer-image {
+    width: 4em; /* Limit the width of the image */
+    margin-bottom: 1em; /* Space between the image and text */
+}

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Tartane
+* source:	https://sketchfab.com/3d-models/tartane-170e890a4f4542dead948b6218ec65ff
+* author:	fan3d (https://sketchfab.com/fan3d)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Tartane" (https://sketchfab.com/3d-models/tartane-170e890a4f4542dead948b6218ec65ff) by fan3d (https://sketchfab.com/fan3d) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
