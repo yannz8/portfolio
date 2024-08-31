@@ -17,14 +17,16 @@ function Welcome() {
                     opacity: 0,
                     y: 80,
                     rotateX: -90,
-                    stagger: .02
+                    stagger: .01,
+                    duration: 2
                 }, "<")
 
                 .to(splitTitle.chars, {
                     opacity: 0,
                     y: -80,
                     rotateX: 90,
-                    stagger: .02
+                    stagger: .01,
+                    duration: 2
                 }, "<1");
         });
 
@@ -38,7 +40,7 @@ function Welcome() {
                     <div className="text-wrapper">
                         <p>Welcome</p>
                         <p>To my website</p>
-                        <p>yann.m</p>
+                        <p>yann.mh</p>
                     </div>
                 </div>
         </div>

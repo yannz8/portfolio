@@ -4,6 +4,7 @@ import React from 'react';
 import './RouterWrapper.css'
 
 import Loader from './pages/Loader';
+import Welcome from './pages/Welcome';
 import About from './pages/About';
 import Project from './pages/Project';
 import Contact from './pages/Contact';
@@ -20,6 +21,7 @@ const RouterWrapper = () => {
 
   const [loading, setLoading] = useState(true);
   const [progress, setProgress] = useState(0);
+  const [showWelcome, setShowWelcome] = useState(true);
 
   // Simulate loading progress
   useEffect(() => {
@@ -40,6 +42,22 @@ const RouterWrapper = () => {
     return () => clearInterval(interval); // Cleanup interval on component unmount
   }, [loading]);
 
+  useEffect(() => {
+    if (!loading) {
+      setShowWelcome(true);
+    }
+  }, [loading]);
+
+  const handleWelcomeClose = () => {
+    setShowWelcome(false);
+  };
+
+
+  useEffect(() => {
+    const timer = setTimeout(() => setShowWelcome(false), 10000); // Change this as needed
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <BrowserRouter basename={"/portfolio/"}>
       <header className="header">
@@ -56,6 +74,8 @@ const RouterWrapper = () => {
       <HomeButton />
 
       {loading && <Loader progress={progress}/>}
+
+      {!loading && showWelcome && <Welcome onClose={handleWelcomeClose} />}
 
       <TransitionGroup>
         <CSSTransition key="key" classNames="fade" timeout={3000}>
