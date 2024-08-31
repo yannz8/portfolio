@@ -56,7 +56,7 @@ const RouterWrapper = () => {
   useEffect(() => {
     let timer;
     if (showWelcome) {
-      timer = setTimeout(() => setShowWelcome(false), 9000); // Hide Welcome page after 12 seconds
+      timer = setTimeout(() => setShowWelcome(false), 10000); // Hide Welcome page after 12 seconds
     }
     return () => clearTimeout(timer); // Cleanup timer on component unmount or when showWelcome changes
   }, [showWelcome]);
