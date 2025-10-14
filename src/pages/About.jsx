@@ -5,6 +5,7 @@ import './About.css'
 import ParticlesBackground from '../components/ParticlesBackground'
 import FranceCarousel from "../components/FranceCarousel";
 import SouthAmericaCarousel from "../components/SouthAmericaCarousel";
+import SouthEastAsiaCarousel from "../components/SouthEastAsiaCarousel";
 //pp
 import pp from '../images/pp.jpg'
 //study
@@ -62,7 +63,13 @@ function About() {
     { lat: -17.6509, lng: -149.4260, size: 0.5, color: "cyan", label: "Tahiti, French Polynesia" }, // Tahiti, French Polynesia
     { lat: 51.5074, lng: -0.1278, size: 0.5, color: "magenta", label: "London, England" }, // London, England
     { lat: 41.9028, lng: 12.4964, size: 0.5, color: "lime", label: "Rome, Italy" }, // Rome, Italy
-    { lat: 47.7485, lng: -3.3666, size: 0.5, color: "white", label: "Lorient, France" } // Lorient, France
+    { lat: 47.7485, lng: -3.3666, size: 0.5, color: "white", label: "Lorient, France" } ,// Lorient, France
+    { lat: 21.0285, lng: 105.8542, size: 0.5, color: "red", label: "Hanoï, Vietnam" }, // Hanoï  
+    { lat: 10.7769, lng: 106.7009, size: 0.5, color: "blue", label: "Ho Chi Minh Ville, Vietnam" }, // Ho Chi Minh Ville  
+    { lat: 19.8856, lng: 102.1347, size: 0.5, color: "green", label: "Luang Prabang, Laos" }, // Luang Prabang  
+    { lat: 15.1200, lng: 105.7990, size: 0.5, color: "orange", label: "Pakse, Laos" }, // Pakse  
+    { lat: 10.6956, lng: 103.3007, size: 0.5, color: "purple", label: "Koh Rong, Cambodge" }, // Koh Rong  
+    { lat: 11.5564, lng: 104.9282, size: 0.5, color: "yellow", label: "Phnom Penh, Cambodge" } // Phnom Penh
   ];
 
 
@@ -161,7 +168,13 @@ function About() {
             <p>I discovered sublime landscapes there: Perito Moreno glacier,  Rurrenabaque park, Salar de Uyuni, etc.</p>
             <p>This allowed me to discover a new culture and improve my Spanish and my English</p>
           </div>
-          
+          <div className="SouthAsia">
+            <h3>South East Asia</h3>
+            <SouthEastAsiaCarousel/>
+            <p>I spent 3 months travelling in South East Asia</p>
+            <p>I visited Vietnam, Laos and Cambodia</p>
+            <p>This solo trip was really interesting, met a lot of backpackers</p>
+          </div>
         </div>
       </div>
     </div>
